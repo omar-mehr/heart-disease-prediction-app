@@ -18,12 +18,16 @@ A clean and modern medical application that predicts the risk of heart disease u
 
 | Technology | Purpose |
 |-----------|---------|
-| **Python 3** | Core programming language |
-| **Tkinter (ttk)** | Graphical user interface |
-| **scikit‑learn** | Machine learning model training and prediction |
-| **Pandas** | Data handling and preprocessing |
-| **NumPy** | Numerical operations |
-| **Object‑Oriented Programming** | Clean separation of components |
+| **Python 3** | Core programming language for the entire application |
+| **Tkinter (ttk)** | Graphical user interface for user interaction |
+| **scikit‑learn** | Machine learning (Logistic Regression), training, evaluation, prediction |
+| **Pandas** | Data loading, cleaning, preprocessing, and manipulation |
+| **NumPy** | Numerical operations and array handling |
+| **Matplotlib / Seaborn** | Exploratory Data Analysis (EDA) and data visualization |
+| **Object‑Oriented Programming (OOP)** | Clean architecture with separated components (data processing, model training, UI) |
+| **Train/Test Split (scikit‑learn)** | Splitting dataset into training and testing sets |
+| **Confusion Matrix & Classification Report** | Model evaluation metrics |
+
 
 ---
 
@@ -33,13 +37,12 @@ A clean and modern medical application that predicts the risk of heart disease u
 
 Follow these steps to download and run the application locally.
 
-### 1. Clone the repository
+### 1. Clone the repository 
 
-Using HTTPS:
-
-```bash
+```bash 
 git clone https://github.com/omar-mehr/heart-disease-prediction-app.git
 ```
+
 
 ### 2. Navigate into the project folder
 
@@ -47,17 +50,38 @@ git clone https://github.com/omar-mehr/heart-disease-prediction-app.git
 cd heart-disease-prediction-app
 ```
 
-### 3. Install dependencies
+### 3. Create and activate a virtual environment (recommended)
 ```bash
-pip install -r requirements.txt
+python -m venv .venv
 
 ```
 
-### 4. Start the application
+### 3.1. Activiate virtual environment
+
+## Windows
+```bash
+.venv\Scripts\activate
+```
+
+## macOS/Linux
+```bash
+.venv\Scripts\activate
+```
+
+
+### 4. Install dependencies
+
+```bash
+virtual environment
+```
+
+### 5. Start the application
 
 ```bash
 python main.py
 ```
+
+
 
 ## 🔧 Project Status
 This project is not fully completed yet.
